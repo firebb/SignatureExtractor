@@ -13,9 +13,9 @@ Head into System Preferences and select Keyboard > Shortcuts > Services. Find "N
 ## Usage
 1. Download the SigExtractor.jar file. It should be in the Download directory.
 2. command + space to use spotlight search, type terminal and enter.
-3. Type "cd Downloads/"
-4. Type "ls", you should be able to see the SigExtractor.jar file.
-5. To run the jar file, type "java -jar SigExtractor.jar -h" and you would see the help information.
+3. Type `cd Downloads/`
+4. Type `ls`, you should be able to see the SigExtractor.jar file.
+5. To run the jar file, type `java -jar SigExtractor.jar -h` and you would see the help information.
 
 ## Example                  
 1. Put the pdf you want to extract in the same directory as the jar file. Say example.pdf
