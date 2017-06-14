@@ -23,6 +23,11 @@ Head into System Preferences and select Keyboard > Shortcuts > Services. Find "N
 3. Type `java -jar SigExtractor.jar -i example.pdf`
 4. By default, the tool would extract all pdf pages with the text "signature page" and store them as SignaturePage[PageNum].pdf
 
+Basically, the tool supports the following options:
+-k searchkey: the word to find the pages needed to be extracted.
+-p 1,2,3: directly extract given pages numbers.
+-o outputname: define the output name.
+
 ## More
 This is a README file for people who don't uses terminal a lot, like lawyers. As I'm not get paid, only limited tech support would be provided.
 
