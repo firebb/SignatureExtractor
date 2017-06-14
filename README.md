@@ -24,11 +24,13 @@ Head into System Preferences and select Keyboard > Shortcuts > Services. Find "N
 4. By default, the tool would extract all pdf pages with the text "signature page" and store them as SignaturePage[PageNum].pdf
 
 Basically, the tool supports the following options:
-\-k searchkey: the word to find the pages needed to be extracted. 
+* \-k searchkey: the word to find the pages needed to be extracted. 
 e.g. `java -jar SigExtractor.jar -i example.pdf -k haha` would extract pages contains the word "haha"
-\-p N,J,K: directly extract given pages numbers.
+
+* \-p N,J,K: directly extract given pages numbers.
 e.g. `java -jar SigExtractor.jar -i example.pdf -p 1,4,5` would extract pages 1, 4, 5 from example.pdf
-\-o outputname: define the output name.
+
+* \-o outputname: define the output name.
 e.g. `java -jar SigExtractor.jar -i example.pdf -p 1,4,5 -o xxx` would generate file xxx1.pdf, xxx4.pdf and xxx5.pdf
 
 ## More
